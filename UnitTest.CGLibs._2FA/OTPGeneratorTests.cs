@@ -1,9 +1,7 @@
-﻿using CGLibs._2FA.OTP;
-using CGLibs._2FA.TOTP;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using CGLibs._2FA.Encoding;
+﻿using CGLibs._2FA.Encoding;
 using CGLibs._2FA.Imaging;
+using CGLibs._2FA.OTP;
+using CGLibs._2FA.TOTP;
 
 namespace CGLibs._2FA.UnitTest
 {
