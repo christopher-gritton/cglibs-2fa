@@ -27,5 +27,5 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Push Package to NuGet.org
-      working-directory: ./CGLibs._2FA/bin/Release
+      working-directory: ./CGLibs.2FA/bin/Release
       run: dotnet nuget push *.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
