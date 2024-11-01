@@ -1,24 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net48;net80</TargetFrameworks>
+		<TargetFrameworks>net472;net48;net80</TargetFrameworks>
 		<RootNamespace>CGLibs._2FA</RootNamespace>
 		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<Company>Elk Creek Services</Company>
 		<Authors>Elk Creek Services,Christopher Gritton</Authors>
-		<Copyright>Copyright 2022</Copyright>
+		<Copyright>Copyright 2024</Copyright>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>CGLibsStrongNameKey.snk</AssemblyOriginatorKeyFile>
 		<PackageIconUrl>https://gritton-ng-ux.azurewebsites.net/assets/img/gritton-logov2-green-64x64.png</PackageIconUrl>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageProjectUrl>https://github.com/christopher-gritton/cglibs-2fa.git</PackageProjectUrl>
 		<PackageIcon>gritton-logov2-green-64x64.png</PackageIcon>
-		<AssemblyVersion>8.51.127.1032</AssemblyVersion>
-		<FileVersion>8.51.127.1032</FileVersion>
-		<Version>8.51.127.1032</Version>
+		<AssemblyVersion>8.51.128.0</AssemblyVersion>
+		<FileVersion>8.51.128.0</FileVersion>
+		<Version>8.51.128.0</Version>
 		<Description>
-			TOTP and HOTP two-factor authentication library for .NET Standard 2.0, .NET 4.8, and .NET 8.0.  Includes QR code generation and validation.
+			TOTP and HOTP two-factor authentication library for .NET Standard 2.0, .NET 4.72, .NET 4.8, and .NET 8.0.  Includes QR code generation and validation.
 		</Description>
 		<PackageTags>totp hotp 2fa twofactor qr</PackageTags>
 	</PropertyGroup>
